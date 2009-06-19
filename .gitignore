@@ -1,0 +1,8 @@
+*.pyc
+*.swp
+*.db
+*.db.sav
+*.pid
+*.out
+*.err
+local_settings.py

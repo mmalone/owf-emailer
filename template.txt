@@ -1,0 +1,17 @@
+# This is an email template. Any line that starts with a '#' will be ignored.
+# The first line that doesn't start with a '#' is the subject. The rest of the
+# file is the body. Blank lines between the subject and the body are ignored.
+# 
+# The parameters {{ random_token }} and {{ email }} and {{ from_email }} will be 
+# replaced with the the random token generated for the recipient, the 
+# recipients email address, and the senders email address, respectively.
+This is the subject.
+
+Hey there.
+
+Your random token is {{ random_token }}.
+Again, that token is {{ random_token }}.
+
+In case you forgot, your email address is {{ email }}. This message was sent from {{ from_email }}.
+
+Thanks.
